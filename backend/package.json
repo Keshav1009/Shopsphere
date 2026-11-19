@@ -1,0 +1,24 @@
+{
+  "name": "mnb-ecommerce-backend",
+  "version": "1.0.0",
+  "description": "Backend REST API for E-Commerce Storefront (BCA-311 MNB Soft Solutions Internship)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js",
+    "test": "node --test tests/api.test.js"
+  },
+  "keywords": ["ecommerce", "bca-311", "mnb-soft-solutions", "express", "sqlite", "jwt"],
+  "author": "Full Stack Developer Intern - MNB Soft Solutions Pvt. Ltd.",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.7",
+    "uuid": "^9.0.1"
+  }
+}

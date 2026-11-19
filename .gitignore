@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Local Node Runtime & Sandbox artifacts
+node_runtime/
+.gemini/
+*.log
+
+# Python cache & temporary build artifacts
+__pycache__/
+*/__pycache__/
+*.pyc
+
+# Local environment files
+.env.local
+.env.*.local
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
